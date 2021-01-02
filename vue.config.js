@@ -42,7 +42,7 @@ module.exports = {
       // },
       '/api': {  // 第一个代理：此处的路径是所有接口前面相同的部分，用来匹配带有这部分路径的
         //target: "http://47.94.148.204:8000",
-        target: 'http://192.168.10.157:8000/', 
+        target: 'http://127.0.0.1:8000/', 
         changeOrigin: true,
         secure:false,
         pathRewrite: {
